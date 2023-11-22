@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 75px;
+    margin: auto;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 0 50% 0 50%;
+    margin-right: 10px;
+}
+.logo h2{
+    font-weight: 600;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.button-signin{
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.button-book{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+/* content */
+.container-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.container-title h2{
+    font-size: 70px;
+}
+
+.content{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-content{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.container-content img{
+    width: 60px;
+}
+
+/* Basic Card */
+.basic-plan{
+    width: 30%;
+    height: 600px;
+    background-color: white;
+    border-radius: 5%;
+    padding: 10px;
+}
+.header-basic{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header-basic p{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.content-basic{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.content-basic h4{
+    font-size: 82px;
+    font-weight: 700;
+}
+.content-basic h4 span{
+    font-size: 20px;
+}
+.content-basic ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.content-basic ul li{
+    margin-top: 10px;
+}
+.content-basic i{
+    margin-right: 10px;
+}
+.footer-basic{
+    margin-left: 12px;
+    margin-top: 180px;
+}
+.footer-basic a{
+    text-decoration: none;
+    color: #040D12;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* Business Card */
+.business-plan{
+    width: 30%;
+    height: 600px;
+    background-color: #B4E4FF;
+    border-radius: 5%;
+    padding: 10px;
+}
+.header-business{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header-business p{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.content-business{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.content-business h4{
+    font-size: 82px;
+    font-weight: 700;
+}
+.content-business h4 span{
+    font-size: 20px;
+}
+.content-business ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.content-business ul li{
+    margin-top: 10px;
+}
+.content-business i{
+    margin-right: 10px;
+}
+.footer-business{
+    margin-left: 12px;
+    margin-top: 150px;
+}
+.footer-business a{
+    text-decoration: none;
+    color: #040D12;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+/* Enterprise Card */
+.enterprise-plan{
+    width: 30%;
+    height: 600px;
+    background-color: #040D12;
+    border-radius: 5%;
+    padding: 10px;
+    color: #EEEEEE;
+}
+.header-enterprise{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header-enterprise p{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.content-enterprise{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.content-enterprise h4{
+    font-size: 82px;
+    font-weight: 700;
+}
+.content-enterprise h4 span{
+    font-size: 20px;
+}
+.content-enterprise ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.content-enterprise ul li{
+    margin-top: 10px;
+}
+.content-enterprise i{
+    margin-right: 10px;
+}
+.footer-enterprise{
+    margin-left: 12px;
+    margin-top: 110px;
+}
+.footer-enterprise a{
+    text-decoration: none;
+    color: #EEEEEE;
+    border: 3px solid #EEEEEE;
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: 600;
+}
